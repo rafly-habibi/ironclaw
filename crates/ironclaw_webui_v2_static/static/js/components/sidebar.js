@@ -7,7 +7,7 @@ import { SidebarTraceCredits } from "./sidebar-trace-credits.js";
 
 export function Sidebar({
   threadsState,
-  activeThreadId = threadsState.activeThreadId,
+  activeThreadId = threadsState?.activeThreadId,
   theme,
   toggleTheme,
   profile,
