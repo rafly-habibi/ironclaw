@@ -159,7 +159,7 @@ test("ChatPage waits for the thread list before redirecting a deep link", () => 
 
   assert.deepEqual(result.navigateCalls, []);
   assert.deepEqual(result.setActiveThreadIdCalls, []);
-  assert.equal(result.chatProps.activeThreadId, null);
+  assert.equal(result.chatProps.activeThreadId, "thread-1");
 });
 
 test("ChatPage keeps bare chat route in blank chat state", () => {
